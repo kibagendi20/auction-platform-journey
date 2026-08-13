@@ -1,0 +1,31 @@
+# Compiled Java class files
+*.class
+*.jar
+target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+.mvn/
+!.mvn/wrapper/
+mvn.cmd
+
+# Environment and secrets — NEVER commit these
+.env
+*.env
+application-prod.yml
+application-prod.yaml
+secrets.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
